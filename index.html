@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<title>Zodiac</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Sample Zodiac Types</h1>
+    
+    </head> 
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+<body>
+ <div class="Table">
+    <table class="centre" id="zodiacTable">
+        <tr>
+            <th>   S.NO  </th>
+            <th>   NAME   </th>
+            <th>   ID NO  </th>
+        </tr>
+        <tr>
+            <td> 01 </td>
+            <td> Aries </td>
+            <td> &#9801 </td>
+        </tr>
+        <tr>
+        <td> 02 </td>
+        <td>  Gemini </td>
+        <td> &#9802 </td>
+      </tr>
+      <tr>
+        <td> 03 </td>
+        <td>Cancer</td>
+        <td> &#9803 </td>
+        </tr>
+        <tr>
+            <td> 04</td>
+            <td> Leo</td>
+            <td> &#9804 </td>
+        </tr>
+     </table>
+ </div>   
+ <div class="add-form">
+    <input type="text" id="zodiacName" placeholder="Zodiac Name" />
+    <input type="text" id="zodiacSymbol" placeholder="Zodiac Symbol"/>
+    <button onclick="addZodiac()">Add Zodiac</button>
+    <button onclick="deleteLastRow()">Delete Last Row</button>
+    <button onclick="updateRow()">Update Row</button>
+    <button onclick="resetTable()">Reset Table</button>
+
+ </div>
+
+ <div class="Text">
+    <p>The list of  Zodiac signs ars as follows and add "&#" before the numbers while writing in symbol input:</p>
+    <ol>
+        <li>Aquarius - 9810</li>
+        <li>Aries    - 9800</li>
+        <li>Cancer   - 9803</li>
+        <li>Capricon - 9809</li>
+        <li>Gemini   - 9802</li>
+        <li>Leo      - 9804</li>
+        <li>Libra    - 9806</li>
+        <li>Pisces   - 9811</li>
+        <li>Scorpion - 9807</li>
+        <li>Taurus   - 9801</li>
+    </ol>
+ </div>
+
+ <section>
+    <div class="copyrights">
+        <p>Published By S.Sanjay
+           @Copyrights 2024 - "All Rights Reserved" 
+        </p>
+    </div>
+ </section>
+
+</body>
+</html>
